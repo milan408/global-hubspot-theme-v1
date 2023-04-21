@@ -1,0 +1,31 @@
+{
+    "name": "Clash Display",
+    "default": "Regular",
+    "fallback": "arial, sans-serif",
+    "variants": [
+        {
+            "name": "Regular",
+            "files": [
+                {
+                    "file": "https://1831846.fs1.hubspotusercontent-na1.net/hubfs/1831846/Global%20Fonts/ClashDisplay-Variable.ttf",
+                    "format": "truetype"
+                }
+            ],
+            "styles": {
+                "font-weight": 400
+            }
+        },
+        {
+            "name": "Bold",
+            "files": [
+                {
+                    "file": "https://1831846.fs1.hubspotusercontent-na1.net/hubfs/1831846/Global%20Fonts/ClashDisplay-Variable.ttf",
+                    "format": "truetype"
+                }
+            ],
+            "styles": {
+                "font-weight": "bold"
+            }
+        }
+    ]
+}

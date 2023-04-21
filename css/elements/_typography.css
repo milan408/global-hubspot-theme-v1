@@ -1,0 +1,102 @@
+body {
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
+
+html[lang^="ja"] body,
+html[lang^="zh"] body,
+html[lang^="ko"] body {
+  line-break: strict;
+  overflow-wrap: normal;
+  word-break: break-all;
+}
+
+/* Paragraphs */
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1.4rem;
+}
+
+/* Anchors */
+
+a {
+  cursor: pointer;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1.4rem;
+}
+
+/* Lists */
+
+ul,
+ol {
+  margin: 0 0 1.4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin: 0;
+}
+
+ul.no-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+
+/* Font Weight */
+b,
+strong { font-weight: bolder; }
+
+/* Code blocks */
+
+pre,
+code,
+kbd,
+samp{ font-family: monospace, monospace; font-size: 1em;  }
+
+pre { overflow: auto; }
+
+code { vertical-align: bottom; } 
+
+sub,
+sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
+
+
+
+
+/* Blockquotes */
+
+blockquote {
+  border-left: 2px solid;
+  margin: 0 0 1.4rem;
+  padding-left: 0.7rem;
+}
+
+/* Horizontal rules */
+
+hr {
+  border: none;
+  border-bottom: 1px solid #CCC;
+}
+
+/* Image alt text */
+
+img {
+  font-size: 0.583rem;
+  word-break: normal;
+}

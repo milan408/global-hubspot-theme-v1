@@ -1,0 +1,27 @@
+{
+    "name": "Excon",
+    "default": "Regular",
+    "fallback": "sans-serif",
+    "variants": [
+        {
+            "name": "Regular",
+            "files": [
+                {
+                    "file": "https://1831846.fs1.hubspotusercontent-na1.net/hubfs/1831846/Global%20Fonts/Excon-Regular.ttf",
+                    "format": "truetype"
+                },
+                {
+                    "file": "https://1831846.fs1.hubspotusercontent-na1.net/hubfs/1831846/Global%20Fonts/Excon-Regular.woff", 
+                    "format": "woff"
+                },
+                {
+                    "file": "https://1831846.fs1.hubspotusercontent-na1.net/hubfs/1831846/Global%20Fonts/Excon-Regular.woff2",
+                    "format": "woff2"
+                }
+            ],
+            "styles": {
+                "font-weight": 400
+            }
+        }
+    ]
+}
